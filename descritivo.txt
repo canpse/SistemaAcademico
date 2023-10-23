@@ -1,0 +1,51 @@
+# Descricao
+
+- Crie um sistema academico basico(diagrama de Classe e Projeto Java com Main simples para teste) que atenda os seguintes itens:
+
+1. É necessario ter a informação de qual curso o aluno está cursando;
+2. O curso é estruturado em fases e cada fase tem um rol de disciplinas;
+3. A disciplina pode ser lecionada por 1 ou até 4 professores;
+4. Controle alunos e frequências;
+5. Como existe a possibilidade de mais de um professor por disciplina é necessario saber qual professor fez o registro de frequência ou avaliação;
+6. É importante saber quais disciplinas ja foram ofertadas;
+7. Um aluno pode se matricular em disciplinas de fases diferentes, não é necessaário verificar pre requisitos;
+8. O sistema deve ser focado em Ensino Superior;
+
+# Notas
+
+- O que o profesor passou faz muito pouco sentido seria mais util ter histórias de usuarios ao invez de requisitos aleatórios;
+- Vamos tentar criar as histórias de usuario a partir dos requisitos(o inverso do que deveria ser)
+
+# Usuarios 
+
+- Professores
+- Alunos
+- Administrador
+
+# historia de usuarios
+
+- Professores
+	- O professor precisa ser capaz de realizar a chamada
+	
+- Alunos
+	- o aluno deve poder se matricular em diciplinas
+	
+# divisão de tarefas
+
+	- Fazer escolha de qual usuario esta no sistema
+	- Fazer login com usuario e senha
+	
+	- Aluno
+		- Mostrar diciplinas ofertadas para matricular
+		- Permitir realizar a matricula
+		
+	- Professores
+		- Realiar a chamada de uma turma da qual ele da aula;
+		
+	- Administrador 
+		- Realizar o cadastro de diciplinas
+		- Realizar o cadastro de professores
+		- Realizar o cadastro de alunos
+		- Visualizar as diciplinas ofertadas
+		
+	
