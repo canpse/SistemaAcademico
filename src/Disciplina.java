@@ -13,6 +13,7 @@ public class Disciplina {
     public Disciplina(String nome, HashMap professores) {
         this.nome = nome;
         this.professores = professores;
+        this.aulas = new ArrayList<>();
     }
 
     public String getNome() {
